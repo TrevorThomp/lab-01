@@ -5,15 +5,18 @@
 #a {
   height: 75px;
   text-align: center;
+  background-color: blue;
 }
 
 #b {
   height: 150px;
+  background-color: green;
 }
 
 #c,
 #d {
   height: 125px;
+  background-color: red;
 }
 
 #e,
@@ -22,11 +25,13 @@
 #h {
   width: 238px;
   height: 250px;
+  background-color: thistle;
 }
 
 #i {
   height: 80px;
   clear: both;
+  background-color: goldenrod;
 }
 
 #e,
