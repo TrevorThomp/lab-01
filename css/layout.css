@@ -1,7 +1,3 @@
-#main-content {
-  border: none;
-}
-
 #a {
   height: 75px;
   text-align: center;
@@ -13,19 +9,41 @@
   background-color: green;
 }
 
+#c {
+  background-color: red;
+}
+
+#d {
+  background-color: saddlebrown;
+}
+
+#e {
+  background-color: gray;
+}
+
+#f {
+  background-color: salmon;
+}
+
+#g {
+  background-color: slateblue;
+}
+
+#h {
+  background-color: tan;
+}
+
 #c,
 #d {
   height: 125px;
-  background-color: red;
 }
 
 #e,
 #f,
 #g,
 #h {
-  width: 238px;
+  width: 240px;
   height: 250px;
-  background-color: thistle;
 }
 
 #i {

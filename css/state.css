@@ -1,4 +1,30 @@
+@media (min-width: 600px) {
+  #a {
+    background-color: purple;
+  }
+
+  #b {
+    background-color: thistle;
+  }
+
+  .top-boxes{
+    background-color: teal;
+  }
+
+  .middle-boxes{
+    background-color: red;
+  }
+}
+
 @media (min-width: 768px) {
+  .top-boxes {
+    width: 100%;
+  }
+
+  .middle-boxes {
+    width: 100%;
+  }
+  
   #main-content {
     float: right;
     width: 79.9%;
@@ -16,14 +42,6 @@
     height: 598px;
     float: left;
     background-color: blue;
-  }
-
-  .top-boxes {
-    width: 100%;
-  }
-
-  .middle-boxes {
-    width: 100%;
   }
 
   #c,
