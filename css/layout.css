@@ -1,36 +1,10 @@
 #a {
   height: 75px;
   text-align: center;
-  background-color: blue;
 }
 
 #b {
   height: 150px;
-  background-color: green;
-}
-
-#c {
-  background-color: red;
-}
-
-#d {
-  background-color: saddlebrown;
-}
-
-#e {
-  background-color: gray;
-}
-
-#f {
-  background-color: salmon;
-}
-
-#g {
-  background-color: slateblue;
-}
-
-#h {
-  background-color: tan;
 }
 
 #c,
@@ -49,7 +23,6 @@
 #i {
   height: 80px;
   clear: both;
-  background-color: goldenrod;
 }
 
 #e,
