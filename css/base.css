@@ -1,5 +1,13 @@
 div {
   border: 1px solid black;
-  text-align: center;
-  vertical-align: center;
+  width: 480px;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
