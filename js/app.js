@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  $('#a').css('background-color', 'blue');
+  $('#b').css('background-color', 'green');
+  $('#c').css('background-color', 'red');
+  $('#d').css('background-color', 'saddlebrown');
+  $('#e').css('background-color', 'gray');
+  $('#f').css('background-color', 'salmon');
+  $('#g').css('background-color', 'slateblue');
+  $('#h').css('background-color', 'tan');
+  $('#i').css('background-color', 'goldenrod');
+
+
   $(window).resize(function() {
     if ($('main').width() < 600) {
       $('#a').css('background-color', 'blue');
