@@ -1,0 +1,40 @@
+#main-content {
+  border: none;
+}
+
+#a {
+  height: 75px;
+  text-align: center;
+}
+
+#b {
+  height: 150px;
+}
+
+#c,
+#d {
+  height: 125px;
+}
+
+#e,
+#f,
+#g,
+#h {
+  width: 238px;
+  height: 250px;
+}
+
+#i {
+  height: 80px;
+  clear: both;
+}
+
+#e,
+#g {
+  float: left;
+}
+
+#f,
+#h {
+  float: right;
+}

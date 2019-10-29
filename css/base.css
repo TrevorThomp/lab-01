@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  height: 700px;
+}
+
 div {
-  border: 1px solid black;
+  outline: 1px solid black;
   width: 480px;
   position: relative;
 }
