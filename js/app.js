@@ -43,7 +43,7 @@ $(document).ready(function() {
       $('#g').css('background-color', 'saddlebrown');
       $('#h').css('background-color', 'slateblue');
       $('#i').css('background-color', 'goldenrod');
-  }
-})
+    }
+  })
 });
 
