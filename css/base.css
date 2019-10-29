@@ -1,0 +1,26 @@
+@import url('reset.css');
+@import url('layout.css');
+@import url('state.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  height: 700px;
+}
+
+div {
+  outline: 1px solid black;
+  width: 480px;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
