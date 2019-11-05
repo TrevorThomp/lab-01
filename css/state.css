@@ -1,55 +1,70 @@
 
-@media (min-width: 768px) {
-  .top-boxes {
-    width: 100%;
-  }
+@media (min-width: 600px) {
 
-  .middle-boxes {
-    width: 100%;
+  body {
+    max-width: 960px;
+    height: 700px;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
   }
   
-  #main-content {
-    float: right;
-    width: 79.9%;
-    height: 450px;
-  }
-
   #a {
     width: 100%;
     height: 100px;
   }
-
-  #b {
-    width: 20.1%;
-    height: 598px;
-    float: left;
+  
+  main {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
   }
-
-  #c,
-  #d {
+  
+  #b {
+    height: 100%;
+    width: 20.83%;
+  }
+  
+  .section {
+    height: 100%;
+    width: 79.19%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-boxes {
     height: 200px;
+    width: 760px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #c, #d {
+    height: 100%;
     width: 50%;
   }
-
-  #c {
-    float: left;
+  
+  .middle-boxes{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
   }
-
-  #d {
-    float: right;
+  
+  #e, #f, #g, #h {
+    height: 100%;
+    width: 50%;
   }
-
-  #e,
-  #f,
-  #g,
-  #h {
-    width: 25%;
-    height: 248px;
-    float: left;
-  }
+  
+  .contentBottom {
+    height: 150px;
+    width: 100%;
+  } 
 
   #i {
     width: 100%;
-    height: 148px;
+    height: 150px;
   }
 }

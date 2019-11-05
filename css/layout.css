@@ -1,4 +1,9 @@
 
+.top-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
 #a {
   height: 75px;
   text-align: center;
@@ -7,6 +12,12 @@
 #b {
   height: 150px;
 
+}
+
+.middle-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #c,
@@ -24,15 +35,4 @@
 
 #i {
   height: 80px;
-  clear: both;
-}
-
-#e,
-#g {
-  float: left;
-}
-
-#f,
-#h {
-  float: right;
 }
